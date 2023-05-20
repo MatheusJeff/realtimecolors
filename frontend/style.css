@@ -1,3 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
 *{
     background-color: #ffffff;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter', sans-serif;
+    color: #000000;
+    margin: 0 15%;
+    gap: 4em;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.menus{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+}
+.btn{
+    background-color: #4685ff;
+    padding: 1em 2em;
+    border-radius: 6px;
+}
+.hero{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 3em;
+    margin-bottom: 6em;
+}
+
+h1{
+    font-size: 48px;
+    letter-spacing: -1px;
+    font-weight: 700;
+    margin: 0;
+}
+.colors{
+    background: linear-gradient(120deg, #4685ff, #ffb084);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+p{
+    letter-spacing: normal;
+    line-height: 150%;
+}
+.subtitulo{
+    font-size: 24px;
+}
+.hero-texto{
+    gap: 3em;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hero-img{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.imag{
+    max-width: 100%;
+}
+.hero-botoes{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    font-size: 18px;
+}
+.btn-1{
+    padding: 1em 2em;
+    background-color: #4685ff;
+    border-radius: 6px;
+    display: inline-block;
+}
+.btn-2{
+    padding: 1em 2em;
+    background-color: #f2f2f2;
+    border-radius: 6px;    
+    display: inline-block;
 }
