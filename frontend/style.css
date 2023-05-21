@@ -331,3 +331,34 @@ h3{
     background-color: #4685ff;
     border-radius: 6px;
 }
+.rodape{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 2em;
+    border-radius: 6px;
+    background-color: #000000;
+    padding: 3em 5em;
+    width: 100%;
+    margin-bottom: 5em;
+    color: #ffffff;
+}
+.colunas{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 3em;
+    width: 100%;
+}
+.rodape-col{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    width: 30%;
+}
+.menu-rodape{
+    color: #ffffff;
+    opacity: 50%;
+    font-size: 16px;
+}
